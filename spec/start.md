@@ -201,6 +201,8 @@ iterator可以随便抄一个容器的，重点是tag dispatch
 
 移动语义可以写一本书，打个比方value左值是一个盒子，我可以通过move告诉编译器把盒子里的东西搬走
 
+有时间的话可以看一下这篇：[C++的右值引用、移动和值类别系统，你所需要的一切](https://zclll.com/index.php/cpp/value_category.html)
+
 ## 各种编译失败/库的链接问题（为什么链接失败
 
 这种只能搜索引擎搜，我也总结了个常见报错整理 https://wanghenshui.github.io/2019/11/01/compile.html
