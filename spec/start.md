@@ -15,9 +15,9 @@ qq群 [点击进入](https://qm.qq.com/q/6NGizNPyG4) 满了加这俩 729240657 8
 
 经常在群里交流，发现有很多共性的问题，以及迷茫的点，大家重复交流很无聊，需要一些共识，这也是群聊的目的
 
-之前通过发问卷收集了一些反馈 问卷地址 https://docs.qq.com/sheet/DYkllcE9scmtUUWlu?tab=ss_epaxm9&viewId=fv1&u=556ff788fee74403a1ab2ecd9e607b89
+大部分c++群聊聊天的内容都会包括本帖中讨论的各种争执，反复讨论很无聊，以后有重复的讨论就会把这个链接丢出来
 
-这里把问题总结列举出来
+之前通过发问卷收集了一些反馈 问卷地址 https://docs.qq.com/sheet/DYkllcE9scmtUUWlu?tab=ss_epaxm9&viewId=fv1&u=556ff788fee74403a1ab2ecd9e607b89
 
 本文长期更新，按照更新顺序排列，目前更新时间为 2024-10-28
 
@@ -62,7 +62,7 @@ qq群 [点击进入](https://qm.qq.com/q/6NGizNPyG4) 满了加这俩 729240657 8
 
 选取库主要是取决于需求，要根据已有的场景做抉择，比如已经沾上grpc的屎， protobuf就躲不开
 
-既然用protubuf，想换grpc也就只能去brpc
+既然用protobuf，想换grpc也就只能去brpc
 
 目前通用型屎protobuf较多的，甚至有基于protobuf的存储/算子引擎（扣字段）/内存分配器
 
@@ -276,3 +276,22 @@ fbstring也有长短串优化， 甚至还有umbrastring这种prefix优化字符
 
 这里有一篇详细的介绍，不是我写的，但是很不错，给新人参考 https://zclll.com/index.php/cpp/get_started_cpp.html
 
+## 编译器之争？哪个编译器好
+
+需求需要用什么编译器就用什么，gcc/clang也可以自由选择使用libcxx还是libstdc++
+
+你也可以全平台都用
+
+举例 clickhouse就选择使用libcxx和llvm compilerrt来作为项目一部份
+
+## xx算法/xx设计比标准库stl快，为什么没有进标准库，有没有可能进标准库
+
+introsort不如pdqsort，pdqsort有机会，但目前演进很慢
+
+还有fmtlib的浮点数要比标准库的快
+
+还有令人诟病的regex问题。cxx标准库为了ABI稳定做了太多妥协，当然他们也懒得一笔
+
+能用第三方库就用，c++生态问题一直非常令人诟病，而其他快的库/算法/设计可能由于信息差的问题看不到
+
+关注c++中文周刊，谢谢
