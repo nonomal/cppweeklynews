@@ -28,6 +28,7 @@ RSS使用仓库的release RSS [链接](https://github.com/wanghenshui/cppweeklyn
 
 ## 2024
 
+
 |   [171](./posts/171.md)                 |    [172](./posts/172.md)                     |                    |                    |  |  |  |  |  |  |
 | ------------------ | ------------------ | ------------------ | ------------------ | ------------------ | ------------------ | ------------------ | ------------------ | ------------------ | ------------------ |
 | [161](./posts/161.md) | [162](./posts/162.md) | [163](./posts/163.md) | [164](./posts/164.md) | [165](./posts/165.md) | [166](./posts/166.md) | [167](./posts/167.md) | [168](./posts/168.md) | [169](./posts/169.md) |  [170](./posts/170.md)                  |
@@ -109,7 +110,7 @@ RSS使用仓库的release RSS [链接](https://github.com/wanghenshui/cppweeklyn
 - Captain
 - Anien
 - jerry
-- HNY x26
+- HNY x27
 - CHENL
 - 沧海
 - 彩虹蛇皮虾
