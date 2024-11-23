@@ -26,6 +26,11 @@ RSS使用仓库的release RSS [链接](https://github.com/wanghenshui/cppweeklyn
 
 ### [c++周刊常见问题收集，看之前先看这个](./spec/start.md)
 
+## 周末圆桌
+
+[talk week1](https://wanghenshui.github.io/my-slides/week1)  [pdf](https://wanghenshui.github.io/my-slides/week1/?print-pdf)
+[talk week2](https://wanghenshui.github.io/my-slides/week2)  [pdf](https://wanghenshui.github.io/my-slides/week2/?print-pdf)
+
 ## 2024
 
 
