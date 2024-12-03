@@ -129,3 +129,4 @@ RSS使用仓库的release RSS [链接](https://github.com/wanghenshui/cppweeklyn
 - 终盛 x2
 - Damon
 - whyqaq
+- 夏虫
